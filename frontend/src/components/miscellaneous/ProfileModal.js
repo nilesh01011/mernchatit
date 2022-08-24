@@ -13,6 +13,7 @@ import {
   Text,
   Image,
 } from '@chakra-ui/react';
+import './style.scss';
 
 const ProfileModal = ({ user, children }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
