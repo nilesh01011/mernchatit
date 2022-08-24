@@ -16,7 +16,8 @@ import Hello from '../assets/robot.gif';
 import io from 'socket.io-client';
 import UpdateGroupChatModal from './miscellaneous/UpdateGroupChatModal';
 import { ChatState } from '../Context/ChatProvider';
-const ENDPOINT = 'http://localhost:5000'; // "https://mernchatit.herokuapp.com"; -> After deployment
+// const ENDPOINT = 'http://localhost:5000'; // "https://mernchatit.herokuapp.com"; -> After deployment
+const ENDPOINT = 'https://mernchatit.herokuapp.com/';
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
