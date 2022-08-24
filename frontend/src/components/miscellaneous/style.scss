@@ -1,0 +1,110 @@
+.seconBtn,
+.buttons {
+    &:hover {
+        background: #3b4253 !important;
+    }
+
+}
+
+#profileBtn[data-active],
+#profileBtn {
+    background: #262d3f;
+
+    &:focus-visible,
+    &:focus,
+    &:focus-within,
+    &:active {
+        background: #3b4253 !important;
+    }
+}
+
+.tooltipContainer {
+
+    & .lists {
+        &:hover {
+            background: #3b4253 !important;
+        }
+
+        &:focus {
+            background: none !important;
+        }
+    }
+
+    &.active {
+        background: #262d3f !important;
+    }
+}
+
+.groupChatSubmitBtn,
+.profileButtons {
+    &:hover {
+        background: #98c9e5 !important;
+    }
+}
+
+.emailText {
+    font-size: 30px;
+}
+
+.inputesSearch {
+    &:hover {
+        border-color: #bee3f8 !important;
+    }
+
+    &:focus-visible {
+        border-color: #98c9e5 !important;
+        box-shadow: 0 0 0 1px #98c9e5 !important;
+    }
+}
+
+.searchBtn {
+    &:hover {
+        background: #bee3f8 !important;
+        color: #262d3f !important;
+    }
+}
+
+.searchUserModelBox {
+    background: #262d3f !important;
+    color: #bee3f8 !important;
+}
+
+.UpdateBtn {
+    &:active {
+        background: #C53030 !important;
+    }
+}
+
+.inputsFeilds {
+    border-color: #3b4253 !important;
+    border-width: 1px !important;
+
+    &:hover {
+        background: transparent !important;
+    }
+
+    &:focus-visible {
+        border-color: #98c9e5 !important;
+        box-shadow: 0 0 0 1px #98c9e5 !important;
+    }
+}
+
+.messagesBoxs {
+    &:active {
+        background: #98c9e5 !important;
+    }
+
+    &:focus {
+        background: #98c9e5 !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .emailText {
+        font-size: 20px;
+    }
+
+    .HeaderTitle {
+        font-size: 28px !important;
+    }
+}

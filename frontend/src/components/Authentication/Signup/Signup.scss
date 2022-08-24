@@ -1,0 +1,30 @@
+@import '../../root';
+
+#buttons {
+    &:hover {
+        background: transparent !important;
+    }
+}
+
+#signUpBtn {
+    &:hover {
+        background: #98c9e5;
+    }
+}
+
+#firstInput,
+#emailInput,
+#ConfirmInput,
+#PasswordInput,
+#picInput {
+    margin-bottom: 10px;
+
+    &:hover {
+        border-color: #bee3f8 !important;
+    }
+
+    &:focus,
+    &:focus-visible {
+        box-shadow: 0 0 0 1px #bee3f8;
+    }
+}

@@ -1,0 +1,69 @@
+.addGroupChats {
+  &:focus-visible {
+    box-shadow: none !important;
+  }
+
+  &:active {
+    background: #98c9e5 !important;
+  }
+}
+
+.ChatBoxLists {
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+  }
+
+  // Handle on Hover
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+.chatInputs {
+  &:focus-visible {
+    border-color: #98c9e5 !important;
+  }
+}
+
+#messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #262d3f !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #262d3f !important;
+  }
+}
+
+
+@media screen and (max-width:1280px) {
+  .loadingImages {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:1038px) {
+  .chatBoxHeader {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  #leftSideChatBox {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+}

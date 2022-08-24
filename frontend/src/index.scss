@@ -1,0 +1,27 @@
+@import './components/root';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bgColor;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #bee3f8;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: $bgColor !important;
+  color: $white;
+}

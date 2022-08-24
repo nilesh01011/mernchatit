@@ -1,0 +1,24 @@
+@import '../../root';
+
+#loginBtn {
+    &:hover {
+        background: #98c9e5;
+    }
+}
+
+#EmailInput {
+    margin-bottom: 10px;
+}
+
+#EmailInput,
+#passwordInput {
+
+    &:hover {
+        border-color: #bee3f8 !important;
+    }
+
+    &:focus-visible,
+    &:focus {
+        box-shadow: 0 0 0 1px #bee3f8 !important;
+    }
+}
