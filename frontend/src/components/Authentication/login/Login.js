@@ -125,7 +125,7 @@ const Login = () => {
       >
         Login
       </Button>
-      <Button
+      {/* <Button
         variant='solid'
         width='100%'
         bg='#E53E3E'
@@ -140,7 +140,7 @@ const Login = () => {
         _focus={{ boxShadow: 'none' }}
       >
         Get Guest User Credentials
-      </Button>
+      </Button> */}
     </VStack>
   );
 };
