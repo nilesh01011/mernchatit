@@ -56,7 +56,7 @@ const ProfileModal = ({ user, children }) => {
             display='flex'
             flexDir='column'
             alignItems='center'
-            justifyContent='space-between'
+            justifyContent='space-around'
           >
             <Image
               borderRadius='full'
